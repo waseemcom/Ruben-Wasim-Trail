@@ -6,10 +6,19 @@
     }
     
 }
-   
 
-@media only screen and (max-width: 400px) {
-    #main-doc {
-      margin-left: -10px;
-    }
-}
+.container {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding: 1rem;
+    background: linear-gradient(
+      to left, 
+      #ffffff 0%, 
+      rgba(216, 216, 194, 0.867)cc 50%, 
+      #b6701e 50%, 
+      #b6701e 100%
+    );
+  }
+   
+ 
